@@ -12,10 +12,27 @@
     tienen el atributo obligatorio href, donde le especificamos las ruta del recurso o sitio que queremos obtener.
     
     También tiene el atributo target, que configura como queremos visualizar el recurso o sitio que solicitamos
+
+    *******************
+
+    -RUTAS ABSOLUTAS:
+         Tienen un protocolo, HTTP O HTTPS y son unicas en la red se suelen utilizar para rutas externas.
+
+    -RUTAS RELATIVAS:
+         si el recurso se encuentra al mismo nivel (en las misma carpeta) pondremos unicamente el nombre del archivo.
+
+         si necesitamos salir de la carpeta actual usaremos ../ y se pone uno por cada nivel (carpeta) de la que queremos salir.
 -->
 <body>
-    <h1>Home</h1>
+    <h1>Enlaces</h1>
     <!--EJEMPLO DE UN ENLACE, TENEMOS QUE PASARLE LA RUTA DE ENLACE EN HREF-->
     <a href="index.html">Index</a>
+
+    <!--EJMEPLO DE RUTA ABSOLUTAS-->
+    <a href="https://google.com">ir Google</a>
+
+    <!--EJEMPLO DE RUTAS RELATIVAS-->
+    <a href="/contacto/contacto.html">Contacto</a>
+
 </body>
 </html>
